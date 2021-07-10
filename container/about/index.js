@@ -1,7 +1,7 @@
 import { Button, Navbar, Nav, Form, FormControl } from "react-bootstrap";
 
 const btnOnClick = () => {
-    fetch("http://localhost:3000/api/hello").then((response) => {
+    fetch("https://next-navigation-five.vercel.app/api/hello").then((response) => {
         console.log(response.json())
     })
 }
